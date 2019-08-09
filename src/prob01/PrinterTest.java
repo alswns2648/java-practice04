@@ -3,7 +3,7 @@ package prob01;
 public class PrinterTest {
 
 	public static void main(String[] args) {
-		Printer printer = new Printer();
+		Printer printer = new Printer(); // 객체생성
 
 		printer.println( 10 );
 		printer.println( true );
@@ -14,8 +14,8 @@ public class PrinterTest {
 		
 		
 		//가변변수
-		System.out.println(printer.sum(1, 2, 3));
-		System.out.println(printer.sum(1, 2, 3, 4, 5));
+//		System.out.println(printer.sum(1, 2, 3));
+//		System.out.println(printer.sum(1, 2, 3, 4, 5));
 	}
 
 }
